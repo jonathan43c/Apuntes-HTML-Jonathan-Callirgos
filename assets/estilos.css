@@ -1,0 +1,20 @@
+html{
+    scroll-behavior: smooth;/*Esto sirve para el desplazamiento sea suave. En nuestro caso lo pusimos para que sea suave los desplazamientos de los enlaces en la pagina */
+}
+body{
+    font-family: sans-serif;
+}
+h1{
+    color: navy;
+}
+
+img, 
+video{
+    max-width: 100%; /*max-width es para que la imagen no sobrepase el 100% del tamño de la pantalla*/
+    height: auto; /*y auto lo ponemos para que la altura se calcule proporcionalmente al tamaño de ancho que ocupa no se deforme el ancho con su altura*/
+}
+
+iframe{
+    width: 80%;/*va a ocupar solo el 80% de la pantalla en anchura*/
+    height: 400px;/*va a tener una altura fija de 400 pixeles*/
+}
